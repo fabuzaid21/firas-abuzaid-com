@@ -1,0 +1,9 @@
+# scratch
+*.swp
+.DS_Store
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata
+# sub-directories
+yggdrasil-spark-summit-sf-2016-talk

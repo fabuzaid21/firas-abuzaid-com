@@ -16,7 +16,7 @@ url: "http://firasabuzaid.com" # the base hostname & protocol for your site
 twitter_username: FirasTheBoss
 github_username:  fabuzaid21
 include: [CNAME]
-exclude: [yggdrasil-spark-summit-sf-2016-talk/node_modules]
+exclude: [yggdrasil-nips-2016-talk/node_modules]
 
 # Build settings
 markdown: kramdown

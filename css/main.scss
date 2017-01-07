@@ -1,54 +1,27 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
 ---
-@charset "utf-8";
 
-// Import Raleway
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,200italic,300italic,400italic,500italic,600italic,700italic,200);
+// Normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css");
 
-// Our variables
-$base-font-family: "Raleway", sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Foundation
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css");
 
-$spacing-unit:     30px;
+//Font Awesome Icons
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css");
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// Import Bungee Shade and Raleway
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade:400);
+// @import url(pathways-display-webfont.ttf);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,200italic,300italic,400italic,500italic,600italic,700italic);
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "variables";
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "message";

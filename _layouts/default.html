@@ -1,20 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="row">
+      <div class="large-12 large-centered columns">
+        <header class="masthead">
+          {% include header.html %}
+        </header>
       </div>
     </div>
 
-    {% include footer.html %}
+    <div class="row">
+      <div class="large-6 large-offset-3 columns">
+        <div class="content-section">
+          {% capture about %}{% include about.md %}{% endcapture %}
+          {{ about | markdownify }}
+        </div>
+
+        <main>
+          <h3>Latest Work</h3>
+          {% for post in site.posts %}
+          <div class="project-post">
+            <h4>{{ post.title }}</h4>
+            {{ post.content }}
+            <p class="italic message">{{ post.authors }}. <a href="{{ post.url }}" target="_blank">{{
+              post.paper_title }}</a>, {{ post.conference }}.
+            </p>
+            {% for link in post.links %}
+            <a href="{{ link.url }}" target="_blank">[{{ link.anchor }}]</a>  
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </main>
+
+        <footer>
+          <h3>Contact Me</h3>
+          <p>
+            Feel free to shoot me an email at <a href="mailto:fabuzaid@cs.stanford.edu">fabuzaid@cs.stanford.edu</a>;
+            you can also hit me up on <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>. Or, if you're
+            on campus, feel free to stop by my office in Gates 432!
+          </p>
+          <p class="copyright">
+            &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{
+            site.time | date: '%Y' }}</time>. All rights reserved.
+          </p>
+        </footer>
+      </div>
+
+      <div class="large-2 large-offset-1 columns social">
+        <ul>
+          <li><a href="{{ 'public/firas_abuzaid_cv.pdf' | relative_url }}" target="_blank"><i class="fa fa-file-pdf-o"></i></a></li>
+          <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
 
   </body>
-
 </html>

@@ -1,0 +1,62 @@
+/***
+ * Our variables
+ **/
+$base-font-family: "Raleway";
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$large-font-size:  $base-font-size * 1.25;
+$base-line-height: 1.5;
+
+$gray-1: #6c6666;
+$gray-2: #ddd;
+$gray-3: #767676;
+$gray-4: #515151;
+$gray-5: #313131;
+
+$red: #ca361d;
+$orange: #FF5B33;
+$yellow: #f4bf75;
+$green: #90a959;
+$cyan: #75b5aa;
+$blue: #268bd2;
+$blue: #6a9fb5;
+$brown: #8f5536;
+$pink: #e74583;
+
+$body-color: #515151;
+$body-bg: #fbfbfb;
+$link-color: $orange;
+
+$border-color: #c5c5c5;
+
+$large-breakpoint: 38em;
+
+$code-font-family: Menlo, Monaco, "Courier New", monospace;
+$code-bg-color: #fefefe;
+$code-color: #bf616a;
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin bp-large {
+  @media only screen and (min-width: 64.063em) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    @content;
+  }
+}
+
+@mixin bp-small {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}

@@ -25,7 +25,7 @@
           <div class="project-post">
             <h4>{{ post.title }}</h4>
             {{ post.content }}
-            <p class="italic message">{{ post.authors }}. <a href="{{ post.url }}" target="_blank">{{
+            <p class="italic message">{{ post.authors }}. <a href="{{ post.paper_url }}" target="_blank">{{
               post.paper_title }}</a>, {{ post.conference }}.
             </p>
             {% for link in post.links %}
@@ -40,12 +40,12 @@
           <p>
             Feel free to shoot me an email at <a href="mailto:fabuzaid@cs.stanford.edu">fabuzaid@cs.stanford.edu</a>;
             you can also hit me up on <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>. Or, if you're
-            on campus, feel free to stop by my office in Gates 432!
+            on campus, stop by my office in Gates 432!
           </p>
-          <p class="copyright">
+          <div class="copyright">
             &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{
             site.time | date: '%Y' }}</time>. All rights reserved.
-          </p>
+          </div>
         </footer>
       </div>
 

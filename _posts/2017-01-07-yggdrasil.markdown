@@ -5,7 +5,7 @@ date:       2017-01-07 10:55:48 -0500
 authors:    F. Abuzaid, J. Bradley, F. Liang, A. Feng, L. Yang, M. Zaharia, and A. Talwalkar
 paper_title:      "Yggdrasil: An Optimized System for Training Deep Decision Trees at Scale"
 conference: NIPS 2016
-url:        https://papers.nips.cc/paper/6366-yggdrasil-an-optimized-system-for-training-deep-decision-trees-at-scale.pdf
+paper_url:        https://papers.nips.cc/paper/6366-yggdrasil-an-optimized-system-for-training-deep-decision-trees-at-scale.pdf
 links:
   - anchor: Code
     url: https://github.com/fabuzaid21/yggdrasil.git

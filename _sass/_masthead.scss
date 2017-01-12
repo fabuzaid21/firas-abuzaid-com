@@ -1,13 +1,19 @@
 .masthead {
-  font-family: "Bungee Shade";
-  font-size: 4.0em;
   padding: 1rem 0;
   margin: 1rem 0;
-  div {
+  text-align: center;
+  .title {
+    font-family: $title-font-family;
+    font-size: $title-font-size;
     color: $red;
-    line-height: 1.2;
-    text-align: center;
+    line-height: $title-line-height;
     margin-bottom: 1rem;
+  }
+  .caption {
+    font-style: italic;
+    margin-top: 0.15rem;
+    font-family: $base-font-family;
+    font-size: 0.75rem;
   }
   img {
     width: 300px;

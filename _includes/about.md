@@ -5,7 +5,7 @@ http://www.bailis.org %}.
 
 As a member of the {% ext_link FutureData Systems Group  http://www.futuredata.io/ %} and
 the {% ext_link Stanford Infolab http://infolab.stanford.edu/ %}, I focus on the
-intersection of systems and machine learning: how to take high-level artifical
+intersection of systems and machine learning: how to take high-level artificial
 intelligence or machine learning tasks and build software systems to improve
 the efficiency of these tasks without sacrificing their accuracy.
 

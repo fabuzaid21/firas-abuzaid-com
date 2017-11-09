@@ -1,4 +1,4 @@
-Howdy! I’m Firas Abuzaid; thanks for visiting my website. I'm a 2nd-year Ph.D.
+Howdy! I’m Firas Abuzaid; thanks for visiting my website. I'm a 3rd-year Ph.D.
 student in Computer Science at Stanford University, co-advised by {% ext_link
 Matei Zaharia http://cs.stanford.edu/~matei %} and {% ext_link Peter Bailis
 http://www.bailis.org %}.
@@ -17,4 +17,4 @@ Prior to MIT, I was at Stanford—yes, really!—where I completed my B.S. and M
 I worked with {% ext_link Chris Ré http://www.cs.stanford.edu/people/chrismre/ %} on database systems
 and machine learning systems.
 
-You can check out my CV [here](public/firas_abuzaid_cv.pdf).
+You can check out my CV [here](https://www.dropbox.com/s/zmvvpt19zoqnexj/firas_abuzaid_cv.pdf?dl=0).

@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # 3rd-party Gems to use
-gems:
+plugins:
   - octopress-minify-html
 
 # Site settings

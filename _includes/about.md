@@ -5,7 +5,7 @@ http://www.bailis.org %}.
 
 As a member of the {% ext_link FutureData Systems Group
 http://futuredata.stanford.edu %} and the {% ext_link Stanford DAWN Project
-https://dawn.stanford.edu }, I focus on the intersection of systems and
+https://dawn.stanford.edu %}, I focus on the intersection of systems and
 machine learning: how to take high-level artificial intelligence or machine
 learning tasks and build software systems to improve the efficiency of these
 tasks without sacrificing their accuracy.

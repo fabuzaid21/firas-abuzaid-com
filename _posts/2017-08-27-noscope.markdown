@@ -5,11 +5,11 @@ date:       2017-08-27 10:55:48 -0500
 authors:    D. Kang, J. Emmons, F. Abuzaid, P. Bailis, and M. Zaharia
 paper_title:      "NoScope: Optimizing Neural Network Queries over Video at Scale"
 conference: VLDB 2017
-paper_url:  http://www.vldb.org/pvldb/vol10/p1586-kang.pdf
+paper_url:  https://www.vldb.org/pvldb/vol10/p1586-kang.pdf
 links:
   - anchor: Code
-    url: http://github.com/stanford-futuredata/noscope
+    url: https://github.com/stanford-futuredata/noscope
   - anchor: Blog Post
-    url: http://dawn.cs.stanford.edu/2017/06/22/noscope/
+    url: https://dawn.cs.stanford.edu/2017/06/22/noscope
 ---
 100x speedups for CNN evaluation on video streams.

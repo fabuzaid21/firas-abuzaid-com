@@ -1,15 +1,15 @@
 ---
 layout:     post
 title:      Sparser
-date:       2017-08-27 10:55:48 -0500
+date:       2018-08-26 10:55:48 -0500
 authors:    S. Palkar, F. Abuzaid, P. Bailis, and M. Zaharia
 paper_title:      "Filter Before You Parse: Faster Analytics on Raw Data with Sparser"
 conference: VLDB 2018
-paper_url:  http://www.vldb.org/pvldb/vol11/p1576-palkar.pdf
+paper_url:  https://www.vldb.org/pvldb/vol11/p1576-palkar.pdf
 links:
   - anchor: Code
-    url: http://github.com/stanford-futuredata/sparser
+    url: https://github.com/stanford-futuredata/sparser
   - anchor: Blog Post
-    url: https://dawn.cs.stanford.edu/2018/08/07/sparser/
+    url: https://dawn.cs.stanford.edu/2018/08/07/sparser
 ---
 22x speed-ups for parsing JSON, Avro, and Parquet data.

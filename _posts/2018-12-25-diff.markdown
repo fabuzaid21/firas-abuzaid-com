@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      MacroBase SQL
+date:       2018-12-25 10:55:48 -0500
+authors:    F. Abuzaid, P. Kraft, S. Suri, E. Gan, E. Xu, A. Shenoy, A. Ananthanarayan, J. Sheu, E. Meijer, X. Wu, J. Naughton, P. Bailis, and M. Zaharia
+paper_title:      "DIFF: A Relational Interface for Large-Scale Data Explanation"
+conference: To appear at VLDB 2019
+links:
+  - anchor: Code
+    url: https://github.com/stanford-futuredata/macrobase
+---
+DIFF, a new SQL operator, provides a generalizable interface for finding
+explanations in large-scale datasets. Our implementation of DIFF in MacroBase
+SQL (a fork of MacroBase) outperforms other state-of-the-art explanation
+engines by up to an order of magnitude.

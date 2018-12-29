@@ -5,6 +5,7 @@ date:       2018-12-24 10:55:48 -0500
 authors:    F. Abuzaid, P. Bailis, J. Ding, E. Gan, S. Madden, D. Narayanan, K. Rong, S. Suri (alphabetical)
 paper_title:      "MacroBase: Prioritizing Attention in Fast Data"
 conference: "ACM Transactions on Database Systems (TODS) - Best of SIGMOND 2017 Papers"
+paper_url:  https://doi.org/10.1145/3276463
 links:
   - anchor: Website
     url: https://macrobase.stanford.edu

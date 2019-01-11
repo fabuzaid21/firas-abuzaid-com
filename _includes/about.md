@@ -18,4 +18,4 @@ Prior to MIT, I was at Stanford, where I completed my B.S. and M.S. in Computer 
 I worked with {% ext_link Chris Ré http://www.cs.stanford.edu/people/chrismre/ %} on database systems
 and machine learning systems.
 
-You can check out my CV [here](https://www.dropbox.com/s/zmvvpt19zoqnexj/firas_abuzaid_cv.pdf?dl=0).
+You can check out my CV [here](/public/firas_abuzaid_cv.pdf).

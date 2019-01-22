@@ -11,6 +11,8 @@ links:
     url: https://macrobase.stanford.edu
   - anchor: Code
     url: https://github.com/stanford-futuredata/macrobase
+  - anchor: Talk from ODSC West 2018
+    url: https://youtu.be/5kN0-sVQDLg
 ---
 MacroBase is a new a data analytics engine that prioritizes end-user
 attention in high-volume fast data streams. MacroBase enables efficient,

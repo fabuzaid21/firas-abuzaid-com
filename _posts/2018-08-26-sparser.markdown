@@ -11,5 +11,7 @@ links:
     url: https://github.com/stanford-futuredata/sparser
   - anchor: Blog Post
     url: https://dawn.cs.stanford.edu/2018/08/07/sparser
+  - anchor: Talk from Spark+AI Summit 2018
+    url: https://databricks.com/session/sparser-faster-parsing-of-unstructured-data-formats-in-apache-spark
 ---
 22x speed-ups for parsing JSON, Avro, and Parquet data.

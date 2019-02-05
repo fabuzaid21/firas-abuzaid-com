@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      Optimus + Maximus
+date:       2019-02-04 10:55:48 -0500
+authors:    F. Abuzaid, G. Sethi, P. Bailis, and M. Zaharia
+paper_title:      "To Index or Not to Index: Optimizing Exact Maximum Inner Product Search"
+conference: To appear at ICDE 2019
+paper_url:  /public/optimus-maximus.pdf
+links:
+  - anchor: Code
+    url: https://github.com/stanford-futuredata/optimus-maximus
+---
+In this paper, we show that blocked matrix multiply---a naive,
+hardware-optimized approach---surprisingly outperforms the state-of-the-art
+MIPS solvers by up to 12x for some (but not all) inputs.  In response, we
+present a novel MIPS solution, Maximus, that takes advantage of hardware
+efficiency _and_ pruning of the search space; we also introduce a new
+data-dependent optimizer, Optimus, that selects online with minimal overhead
+the best MIPS solver for a given set of inputs. Together, Optimus and Maximus
+outperform state-of-the-art MIPS solvers by 3.2x on average, and up to 10.9x,
+on widely studied MIPS datasets.

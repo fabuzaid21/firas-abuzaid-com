@@ -4,7 +4,7 @@ title:      MacroBase SQL
 date:       2018-12-25 10:55:48 -0500
 authors:    F. Abuzaid, P. Kraft, S. Suri, E. Gan, E. Xu, A. Shenoy, A. Ananthanarayan, J. Sheu, E. Meijer, X. Wu, J. Naughton, P. Bailis, and M. Zaharia
 paper_title:      "DIFF: A Relational Interface for Large-Scale Data Explanation"
-conference: To appear at VLDB 2019
+conference: VLDB 2019
 paper_url:  /public/macrobase-sql.pdf
 links:
   - anchor: Code

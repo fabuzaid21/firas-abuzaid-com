@@ -2,8 +2,10 @@
 *.swp
 .DS_Store
 # jekyll
+Gemfile.lock
 _site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
 # sub-directories
 yggdrasil-spark-summit-sf-2016-talk

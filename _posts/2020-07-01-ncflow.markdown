@@ -1,0 +1,8 @@
+---
+layout:     post
+title:      Solving Flow Problems on Wide-Area Networks
+date:       2019-02-04 10:55:48 -0500
+authors:    F. Abuzaid, S. Kandula, B. Arzani, I. Menache, P. Bailis, M. Zaharia
+paper_title:      "Contracting Wide-area Network Topologies to Solve Flow Problems Quickly"
+conference: "To appear at NSDI 2021"
+---

@@ -2,7 +2,7 @@
 layout:     post
 title:      Machine Learning to detect Atrial Fibrillation
 date:       2019-02-04 10:55:48 -0500
-authors:    M. Alhusseini, F. Abuzaid, A. Rogers, J. Zaman, T. Baykaner, P. Clopton, P. Bailis, M. Zaheria, P. Wang, W-J. Rappel, and S. Narayan 
+authors:    M. Alhusseini, F. Abuzaid, A. Rogers, J. Zaman, T. Baykaner, P. Clopton, P. Bailis, M. Zaharia, P. Wang, W-J. Rappel, and S. Narayan 
 paper_title:      "Machine Learning to Classify Intracardiac Electrical Patterns During Atrial Fibrillation"
 conference: "Circulation: Arrhythmia and Electrophysiology 2020"
 ---

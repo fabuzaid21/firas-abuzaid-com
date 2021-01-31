@@ -1,7 +1,8 @@
-Hi, I’m Firas Abuzaid; thanks for visiting my website. I'm a 4th-year Ph.D.
+Hi, I’m Firas Abuzaid; thanks for visiting my website. I'm a 6th-year Ph.D.
 student in Computer Science at Stanford University, co-advised by {% ext_link
 Matei Zaharia http://cs.stanford.edu/~matei %} and {% ext_link Peter Bailis
-http://www.bailis.org %}.
+http://www.bailis.org %}. I'm currently on leave from the PhD, working on a
+startup I co-founded called {% ext_link neo.tax https://neo.tax %}.
 
 As a member of the {% ext_link FutureData Systems Group
 http://futuredata.stanford.edu %} and the {% ext_link Stanford DAWN Project

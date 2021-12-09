@@ -1,0 +1,9 @@
+---
+layout:     post
+title:      Solving Large-Scale Granular Resource Allocation Problems Efficiently
+date:       2021-10-26 10:55:48 -0500
+authors:    D. Narayanan, F. Kazhamiaka, F. Abuzaid, P. Kraft, A. Agrawal, S. Kandula, S. Boyd, M. Zaharia
+paper_title:      "Solving Large-Scale Granular Resource Allocation Problems Efficiently With POP"
+paper_url:  /public/pop.pdf
+conference: "SOSP 2021"
+---

@@ -12,7 +12,7 @@ links:
   - anchor: Spark Package
     url: https://spark-packages.org/package/fabuzaid21/yggdrasil
   - anchor: Slides from ML Systems Workshop, NIPS 2016
-    url: /yggdrasil-nips-2016-talk
+    url: /public/yggdrasil-nips-2016-talk
   - anchor: Talk from Spark Summit 2016
     url: https://www.youtube.com/watch?v=nAwkCl7G7lE
 ---

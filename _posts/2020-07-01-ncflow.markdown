@@ -1,9 +1,25 @@
 ---
 layout:     post
-title:      Solving Flow Problems on Wide-Area Networks
+title:      "NCFlow: Network Contractions for Flow Problems"
 date:       2019-02-04 10:55:48 -0500
-authors:    F. Abuzaid, S. Kandula, B. Arzani, I. Menache, P. Bailis, M. Zaharia
+authors:    F. Abuzaid, S. Kandula, B. Arzani, I. Menache, M. Zaharia, P. Bailis
 paper_title:      "Contracting Wide-area Network Topologies to Solve Flow Problems Quickly"
 paper_url:  https://www.usenix.org/system/files/nsdi21-abuzaid.pdf
 conference: "NSDI 2021"
+links:
+  - anchor: Code
+    url: https://github.com/stanford-futuredata/pop-ncflow.git
+  - anchor: Talk from NSDI 2021
+    url: https://www.usenix.org/conference/nsdi21/presentation/abuzaid
+  - anchor: Technical Report
+    url: /public/ncflow-technical-report.pdf
 ---
+In this project, we developed a new algorithm for Traffic Engineering that
+solves the Multi-commodity Maximum Total Flow problem on Wide-Area Networks
+(WANs) much more efficiently, with only a small loss of flow. Our algorithm i)
+contracts the WAN into disjoint clusters, ii) solves a simpler flow problem on
+the contracted network, and iii) solves the per-cluster flow problems in
+parallel.  We benchmarked NCFlow on WAN topologies that are over 10x larger
+than those considered in prior work and found it to be 8.2x faster than the
+state of the art in the median case (and up to 4,000x), while allocating 98.8%
+of the total flow and using 6x fewer forwarding entries.

@@ -20,10 +20,10 @@
         </div>
 
         <main>
-          <h3>Papers</h3>
+          <h2>Papers</h2>
           {% for post in site.posts %}
           <div class="project-post">
-            <h4>{{ post.title }}</h4>
+            <h3>{{ post.title }}</h3>
             {{ post.content }}
             <p class="italic message">{{ post.authors }}. <a href="{{ post.paper_url }}" target="_blank">{{
               post.paper_title }}</a>, {{ post.conference }}.
@@ -39,8 +39,7 @@
           <h3>Contact Me</h3>
           <p>
             Feel free to shoot me an email at <a href="mailto:fabuzaid@cs.stanford.edu">fabuzaid@cs.stanford.edu</a>;
-            you can also hit me up on <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>. Or, if you're
-            on campus, stop by my office in Gates 432!
+            you can also hit me up on <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>. 
           </p>
           <div class="copyright">
             &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{
@@ -54,6 +53,7 @@
           <li><a href="/public/firas_abuzaid_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a></li>
           <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
           <li><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
         </ul>
       </div>
     </div>

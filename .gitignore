@@ -2,7 +2,6 @@
 *.swp
 .DS_Store
 # jekyll
-Gemfile.lock
 _site
 .sass-cache
 .jekyll-cache
